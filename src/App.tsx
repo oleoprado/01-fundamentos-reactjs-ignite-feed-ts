@@ -21,9 +21,9 @@ const posts = [
       role: 'Jr Web Developer'
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋🏼'},
-      { type: 'paragraph', content: 'Acabei de subir um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat 🚀'},
-      { type: 'link', content: 'oleoprado/doctorcare'},
+      { type: 'paragraph', content: 'Fala galeraa 👋🏼' },
+      { type: 'paragraph', content: 'Acabei de subir um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat 🚀' },
+      { type: 'link', content: 'oleoprado/doctorcare' },
     ],
     publishedAt: new Date(),
   },
@@ -35,9 +35,9 @@ const posts = [
       role: 'Enfermeiro / Engenheiro'
     },
     content: [
-      { type: 'paragraph', content: 'Fala camaradas ✊🏼'},
+      { type: 'paragraph', content: 'Fala camaradas ✊🏼' },
       { type: 'paragraph', content: 'A classe trabalhadora é a coluna vertebral da sociedade, mas é frequentemente explorada e oprimida pelo sistema capitalista. É hora do proletariado se levantar e tomar as rédeas da produção, criando uma sociedade justa e igualitária para todos ☭' },
-      { type: 'link', content: 'verdeli/vamosFazerRevolucao'},
+      { type: 'link', content: 'verdeli/vamosFazerRevolucao' },
     ],
     publishedAt: new Date(),
   },
@@ -47,8 +47,8 @@ export function App() {
   return (
     <div>
       <Header />
-    
-      <div className={ styles.wrapper }>
+
+      <div className={styles.wrapper}>
         <Sidebar />
         <main>
           {
