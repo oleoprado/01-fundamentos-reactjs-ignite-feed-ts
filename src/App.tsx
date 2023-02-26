@@ -1,8 +1,8 @@
 import { v4 as uuid } from 'uuid';
 
-import { Header } from "./components/Header";
-import { Post } from "./components/Post";
-import { Sidebar } from "./components/Sidebar";
+import { Header } from "./components/header/Header";
+import { Post } from "./components/post/Post";
+import { Sidebar } from "./components/sidebar/Sidebar";
 
 import styles from './App.module.css';
 
